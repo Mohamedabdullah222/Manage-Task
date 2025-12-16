@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoMdStar } from 'react-icons/io'
 
-const Customer = () => {
+const Customers = () => {
 
   return (<div id="customer">
                                   <h1 className=' text-3xl font-bold items-center text-center my-20 '>what they've said</h1>
@@ -74,4 +74,4 @@ const Customer = () => {
   )
 }
 
-export default Customer
+export default Customers
