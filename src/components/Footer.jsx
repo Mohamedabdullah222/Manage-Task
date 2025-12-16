@@ -18,7 +18,7 @@ const Footer = () => {
                     <p className='text-sm ml-1'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                     </p>
-                    <div className='flex items-center gap-3 mt-4'>
+                    <div className='flex items-center gap-3 mt-4 text-gray-500'>
                         {/* Instagram */}
                         <a href="https://www.instagram.com/mohamed_abd_3" target='_blank'><FaInstagramSquare className='text-2xl'/></a>
                         {/* Facebook */}
@@ -33,11 +33,10 @@ const Footer = () => {
                 <div>
                     <p className='text-lg text-gray-800'>COMPANY</p>
                     <ul className='mt-3 flex flex-col gap-2 text-sm'>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Partners</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#customer">Customer</a></li>
+                        <li><a href="#getstart">GetStart</a></li>
                     </ul>
                 </div>
 
